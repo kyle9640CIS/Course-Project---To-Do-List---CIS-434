@@ -18,4 +18,4 @@ A simple (for now) "To Do List" which allows the user to track various tasks
     c. Priority
     d. Due Date
 
-5. 
+5. Work on visual elements to make list more visually appealing 
