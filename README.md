@@ -1,21 +1,31 @@
 # Course-Project---To-Do-List---CIS-434
 
-A simple (for now) "To Do List" which allows the user to track various tasks
+TASK LIST FOR PROJECT (Update As Needed)
 
-1. Allow the user to add tasks to a table
-    a. Finished?
-    b. Task Name?
-    c. Priority?
-    d. Due Date?
-    
-2. Allow the user to remove tasks from the table
+1. Write a Presentation for the proposal (NEEDS DONE BEFORE 2/17/20)
 
-3. Sync events to the google calendar
+2. Write the proposal paper (DUE 2/20/20)
 
-4. Sort the tasks by clicking on the column headers
+3. Allow the user to add tasks to a table
     a. Finished
     b. Task Name
     c. Priority
     d. Due Date
+    e. Other Column Ideas?
+    
+4. Sync table with an excel sheet or database so that the table can be saved when offline
+    
+5. Allow the user to remove tasks from the table
+    a. Remove only finished items?
 
-5. Work on visual elements to make list more visually appealing 
+6. Sync events to the google calendar
+    a. Matty claimed this one
+
+7. Sort the tasks by clicking on the column headers
+    a. Finished
+    b. Task Name
+    c. Priority
+    d. Due Date
+    e. Other Column Ideas?
+
+8. Work on visual elements to make site more appealing 
