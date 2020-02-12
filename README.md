@@ -2,7 +2,7 @@
 
 TASK LIST FOR PROJECT (Update As Needed)
 
-1. Write a Presentation for the proposal (NEEDS DONE BEFORE 2/17/20)
+1. Write a Presentation for the proposal (NEEDS DONE BEFORE 2/19/20)
 
 2. Write the proposal paper (DUE 2/20/20)
 
