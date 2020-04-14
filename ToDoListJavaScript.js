@@ -5,6 +5,7 @@ function addTask() {
 	getTask();
 	arr.push({
 		pendingTaskName:document.getElementById("pendingTaskName").value,
+		pendingClassName:document.getElementById("pendingClassName").value,
 		pendingTaskPriority:document.getElementById("pendingTaskPriority").value,
 		pendingTaskDueDate:document.getElementById("pendingTaskDueDate").value
 	});
@@ -41,11 +42,13 @@ function showTask() {
 	for (i = 0; i < arr.length; i++) {
 		var row = table.insertRow(1);
 		var task = row.insertCell(0);
-		var priority = row.insertCell(1);
-		var dueDate = row.insertCell(2);
-		var deleteBtn = row.insertCell(3);
+		var classname = row.insertCell(1)
+		var priority = row.insertCell(2);
+		var dueDate = row.insertCell(3);
+		var deleteBtn = row.insertCell(4);
 		
 		var inputTaskName = arr[i].pendingTaskName;
+		var inputClassName = arr[i].pendingClassName;
 		var inputTaskPriority = arr[i].pendingTaskPriority;
 		var inputTaskDueDate = arr[i].pendingTaskDueDate;
 		var tempDeleteBtn = document.createElement("input");
@@ -55,6 +58,7 @@ function showTask() {
 		tempDeleteBtn.setAttribute("name", "removeRow");
 		
 		task.innerHTML = inputTaskName;
+		classname.innerHTML = inputClassName;
 		priority.innerHTML = inputTaskPriority;
 		dueDate.innerHTML = inputTaskDueDate;
 		deleteBtn.appendChild(tempDeleteBtn);
@@ -71,8 +75,9 @@ function removeCurrentTask(oButton) {
 	for (i = 1; i < table.rows.length; i++) {
 		arr.push({
 			pendingTaskName:table.rows[i].cells[0].innerHTML,
-			pendingTaskPriority:table.rows[i].cells[1].innerHTML,
-			pendingTaskDueDate:table.rows[i].cells[2].innerHTML
+			pendingClassName:table.rows[i].cells[1].innerHTML,
+			pendingTaskPriority:table.rows[i].cells[2].innerHTML,
+			pendingTaskDueDate:table.rows[i].cells[3].innerHTML
 		});
 	}
 	localStorage.setItem("localData", JSON.stringify(arr));

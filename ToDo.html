@@ -24,6 +24,7 @@
 			<form>
 				<input hidden type = "checkbox" id = "pendingCheckbox">
 				<h2 class = "font">Task:  <input class = "font" type = "text" id = "pendingTaskName"></h2>
+				<h2 class = "font">Class:  <input class = "font" type = "text" id = "pendingClassName"></h2>
 				<h2 class = "font">Priority:  <input class = "font" type = "number" id = "pendingTaskPriority"></h2>
 				<h2 class = "font">Due Date:  <input class = "font" type = "date" id = "pendingTaskDueDate"></h2>
 				<button class = "button" onclick = addTask()>Add Task</button>
@@ -37,6 +38,7 @@
 			<table id = "todoListTable">
 				<tr>
 					<th>Task</th>
+					<th>Class</th>
 					<th>Priority</th>
 					<th>Due Date</th>
 					<th>Delete</th>
