@@ -13,10 +13,9 @@
 	<!-- Import the JavaScript File -->
 	<script src = "ToDoListJavaScript.js"></script>
 	
-	<!-- the images are under a new hidden imgur post found here https://imgur.com/a/Jv8mXxD -->
-	<div align = "center" class="putincenter"><iframe src="https://imgur.com/tbqJXBi.gif" width="380" height="199" frameBorder="0" padding-right="30px" class="giphy-embed" allowFullScreen></iframe><p><a></a></p></div>
-    <!-- invisible background --><div align = "right"><a href="https://campusnet.csuohio.edu/"> <img src="https://imgur.com/n3D0fSE.png" alt="camputnet" width="150" height="60" border="0" align = "right"/></a></div><br />
-    <!-- invisible background --><div align = "right"><a href="https://www.csuohio.edu/registrar/academic-calendar"> <img src="https://imgur.com/T4zXqRO.png" alt="camputnet" width="300" height="40" border="0" /></a></div><br />
+	<div align = "center"><iframe src="https://imgur.com/tbqJXBi.gif" width="380" height="199" frameBorder="0" padding-right="30px" class="giphy-embed" allowFullScreen></iframe><p><a></a></p></div>
+    <div align = "right"><a href="https://campusnet.csuohio.edu/"> <img src="https://imgur.com/n3D0fSE.png" alt="camputnet" width="150" height="60" border="0" align = "right"/></a></div><br />
+    <div align = "right"><a href="https://www.csuohio.edu/registrar/academic-calendar"> <img src="https://imgur.com/T4zXqRO.png" alt="camputnet" width="300" height="40" border="0" /></a></div><br />
     <div align = "right"><a href="https://www.csuohio.edu/center-for-elearning/blackboard-login"> <img src="https://imgur.com/v6WHQhF.png" alt="camputnet" width="300" height="40" border="0" /></a></div>
 
 	<body>
@@ -25,6 +24,7 @@
 			<form>
 				<input hidden type = "checkbox" id = "pendingCheckbox">
 				<h2 class = "font">Task:  <input class = "font" type = "text" id = "pendingTaskName"></h2>
+				<h2 class = "font">Class:  <input class = "font" type = "text" id = "pendingClassName"></h2>
 				<h2 class = "font">Priority:  <input class = "font" type = "number" id = "pendingTaskPriority"></h2>
 				<h2 class = "font">Due Date:  <input class = "font" type = "date" id = "pendingTaskDueDate"></h2>
 				<button class = "button" onclick = addTask()>Add Task</button>
@@ -38,6 +38,7 @@
 			<table id = "todoListTable">
 				<tr>
 					<th>Task</th>
+					<th>Class</th>
 					<th>Priority</th>
 					<th>Due Date</th>
 					<th>Delete</th>
