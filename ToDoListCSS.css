@@ -36,7 +36,7 @@ td, th {
 
 /* Formattig for the color of every other cell */
 tr:nth-child(even) {
-	background-color: lightgreen;
+	background-color: green;
 }
 
 tr:nth-child(odd) {
@@ -44,7 +44,7 @@ tr:nth-child(odd) {
 }
 
 .button {
-  background-color: #4CAF50;
+  background-color: green;
   border: none;
   color: black;
   padding: 15px 32px;
